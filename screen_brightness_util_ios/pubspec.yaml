@@ -1,7 +1,7 @@
 name: screen_brightness_util_ios
 description: iOS implementation of the screen_brightness_util plugin.
 repository: https://github.com/zyzdev/screen_brightness_util/screen_brightness_util_ios
-version: 0.0.1-dev.1
+version: 0.0.1
 
 environment:
   sdk: ">=2.16.2 <3.0.0"
