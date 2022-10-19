@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - screen_brightness_util_ios (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - screen_brightness_util_ios (from `.symlinks/plugins/screen_brightness_util_ios/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  screen_brightness_util_ios:
+    :path: ".symlinks/plugins/screen_brightness_util_ios/ios"
+
+SPEC CHECKSUMS:
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  screen_brightness_util_ios: 7f58bcc763216728ce7105f9259e43d088a54a1b
+
+PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3
+
+COCOAPODS: 1.11.3
