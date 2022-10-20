@@ -112,38 +112,38 @@ packages:
   screen_brightness_util:
     dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
-    version: "0.0.1-dev.1"
+      name: screen_brightness_util
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.2"
   screen_brightness_util_android:
     dependency: transitive
     description:
       name: screen_brightness_util_android
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.0.1-dev.1"
+    version: "0.0.2"
   screen_brightness_util_ios:
     dependency: transitive
     description:
       name: screen_brightness_util_ios
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.0.1-dev.1"
+    version: "0.0.2"
   screen_brightness_util_platform_interface:
     dependency: transitive
     description:
       name: screen_brightness_util_platform_interface
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.0.1-dev.1"
+    version: "0.0.2"
   screen_brightness_util_windows:
     dependency: transitive
     description:
       name: screen_brightness_util_windows
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.0.1-dev.1"
+    version: "0.0.2"
   sky_engine:
     dependency: transitive
     description: flutter

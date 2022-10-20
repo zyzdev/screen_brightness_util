@@ -1,7 +1,7 @@
 name: screen_brightness_util
-description: A flutter plugin to config and monitor brightness.
+description: A flutter plugin to config and monitor brightness. Support Windows, Android and iOS platform.
 repository: https://github.com/zyzdev/screen_brightness_util/tree/main/screen_brightness_util
-version: 0.0.2
+version: 0.0.3
 
 environment:
   sdk: ">=2.16.2 <3.0.0"

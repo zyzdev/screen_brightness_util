@@ -1,10 +1,8 @@
 import 'dart:async';
-import 'dart:ui';
 
 import 'package:screen_brightness_util_platform_interface/screen_brightness_util_platform_interface.dart';
 
 class ScreenBrightnessUtil {
-
   PlatformChannel get _platformChannel => PlatformChannel.instance;
 
   /// return current brightness
