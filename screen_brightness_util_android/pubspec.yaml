@@ -1,7 +1,7 @@
 name: screen_brightness_util_android
 description: Android implementation of the screen_brightness_util plugin.
-repository: https://github.com/zyzdev/screen_brightness_util/screen_brightness_util_android
-version: 0.0.1
+repository: https://github.com/zyzdev/screen_brightness_util/tree/main/screen_brightness_util_android
+version: 0.0.2
 
 environment:
   sdk: ">=2.16.2 <3.0.0"

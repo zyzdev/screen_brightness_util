@@ -64,8 +64,6 @@ namespace screen_brightness_util_windows {
 		}
 		else if (method.compare("brightness#set") == 0) {
 			auto brightness = *std::get_if<double>(method_call.arguments());
-						
-			std::cout << "onMethodCall, brightness:" << brightness << std::endl;
 			result->Success(flutter::EncodableValue(setBrightness(brightness)));
 		}
 		else {
@@ -163,7 +161,7 @@ namespace screen_brightness_util_windows {
 			DWORD brightnessFinal = (DWORD)(pdwRangeBrightness * brightness + pdwMinimumBrightness);
 
 			SetMonitorBrightness(pmh, brightnessFinal);
-			std::cout << "brightness:" << brightness << ", brightnessFinal:" << brightnessFinal << std::endl;
+			//std::cout << "brightness:" << brightness << ", brightnessFinal:" << brightnessFinal << std::endl;
 
 			// Close the monitor handles.
 			bSuccess = DestroyPhysicalMonitors(
